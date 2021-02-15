@@ -1,0 +1,45 @@
+#ol_map {
+    width:100%;
+    height:calc(100vh - 130px);
+    overflow: auto;
+  }
+
+  .optimalpath-tool{
+    top: 0.5em;
+    right: 0.5em;
+    z-index: -1;
+    cursor: pointer;
+  }
+  /* .optimalpath-tool > button {
+    height: 0.5em;
+    width: 0.5em;
+    background-image: url(../../assets/Route.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  } */
+  /* .optimalpath-tool > button::before {
+    font-family:"FontAwesome";
+    content:'\f018';
+  } */
+  
+  .optimalpath-dialog{
+    background-color:rgb(153, 44, 153) !important;
+    position: absolute !important;
+    top: 0.5em !important;
+    right: 0.5em !important;
+    left: initial !important;
+    width: auto !important;
+    height: auto !important;
+    visibility: visible;
+  }
+  
+  .optimalpath-dialog  > form {
+    border: 5px dashed rgb(17, 25, 70);
+    background-color: rgb(73, 74, 156);
+    left : 0% !important;
+    position: relative !important;
+    top: 0% !important;
+    right: 0% !important;
+    max-width: 150% !important;
+    transform: none !important; 
+  }
